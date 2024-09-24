@@ -1,0 +1,3 @@
+Comienza el textoa estudiar Python 
+ Esta lineaha sido incluida desde el exterior 
+ Siempre es una buena ocasion para estudiar Python
