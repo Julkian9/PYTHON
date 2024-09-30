@@ -1,13 +1,14 @@
-if __name__ == '__main__':
-    n = int(input())
-    student_marks = {}
-    for _ in range(n):
-        name, *line = input().split()
-        scores = list(map(float, line))
-        
-        student_marks[name] = scores
-        
-    query_name = input()
-    
-print(scores)
+nombre=input("Introduce tu nombre: ")
+apellido=input("Introduce tu apellido: ")
 
+n=int(input())
+
+if n%2!=0:
+    print("Weird")
+else:
+    if 2 <= n >= 5:
+        print("Not Weird")
+    elif 6 <= n >= 20:
+        print("Weird")
+    elif n>20:
+        print("Not weird")
